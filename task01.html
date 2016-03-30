@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/task01.css">
+	<script type="text/javascript" src="bootstrap/js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/holder.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row row06_top01">
+			<a href="index.html"><img src="img/left.png" class="row06_img_left"></a>
+         	<p class="row06_font01">任务详情</p>
+		</div> 
+		<div class="row row06_top02">
+	 		<div class="col-xs-9 row06_top02_01">
+	 			 <img src="img/icon.png" class="row06_img_icon">
+	 			 <ul>
+	 			 	<li class="row06_font02">房地产发单</li>
+	 			 	<li class="row06_font03">剩0份|剩余5371小时</li>
+	 			 	<li class="row06_font04" >网易游戏公司</li>
+	 			 </ul>
+	 		</div>
+	 		<div class="col-xs-3 row06_top02_02" align="right">
+	 			 <input type="button" value="2000金币/天" class="row06_btn01" >
+	 		</div>
+	 	</div>
+	 	<div class="row row06_top03">
+	 	    <p class="row06_font05">任务详情：房地产发单</p>
+            <p class="row06_font06">类型：</p>
+	 	    <p class="row06_font07">传单派发</p>
+	 	    <p class="row06_font06">人数：</p>
+	 	    <p class="row06_font07">20人，性别不限</p>
+	 	    <p class="row06_font06">时间：</p>
+	 	    <p class="row06_font07">
+	 	    		   03.05~03.05<br/>
+	 	    		   09:30 ~ 18:00  中午有休息吃饭时间
+	 	    </p>
+	 	    <div class="row06_font06">薪资：</div>
+	 	    <div class="row06_font07 mgleft"><p>每月结算 提成：一个成功购买的客户最低提成10元，最高提成50元，多劳多得。每周六周日都做，工资一月一结算，适合想长期做兼职的学生</p></div>
+	 	    <p class="row06_font08">斗米担保 斗米担保职位工资按时结算，适用斗米用户权益保障担保赔付条款</p>
+		 	<p class="row06_font09">工作地点：西安市雁塔区赛格电脑城</p>
+	 	</div>
+	 	<div class="row row06_top04">
+	 		<p class="row06_font10">岗位要求：</p><p>男女不限，积极主动，口才好，有自信，有赚钱的欲望</p>
+	 	</div>
+	 	<nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+			 	<div class="row row06_top05">
+			 		<a href="">
+			 			<div class="col-xs-4 row06_top05_01" align="center">
+				 			<img src="img/share.gif" class="row06_img_forward">
+				 			<p class="row06_font11">分享</p>
+			 		    </div>
+			 		</a>	 		
+			 		<div class="col-xs-4" id="row06_top05_02" align="center" >
+			 		    <a href="tel:18829292700">
+					 		<img src="img/phone.gif" class="row06_img_call" >
+					 		<p class="row06_font12">手机</p>
+					 	</a>	
+			 		</div>			 		
+			 		<div class="col-xs-4" id="row06_top05_03">
+			 			  <button><span>报名参加</span></button>
+			 		</div>	
+			 	</div>
+			</div>
+		</nav>
+	</div>
+	<script type="text/javascript">
+	    var oLink=document.getElementById("row06_top05_02");
+	    var oImg=oLink.getElementsByTagName("img")[0];
+        var oPhone=oLink.getElementsByTagName("p")[0];
+        var oJoin=document.getElementById("row06_top05_03");
+        var oBtn=oJoin.getElementsByTagName("button")[0];
+  
+        oBtn.onclick=function(){
+        	oImg.style.display="block";
+        	oPhone.style.display="block";
+        }
+	</script>
+</body>
+</html>

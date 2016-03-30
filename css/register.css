@@ -1,0 +1,14 @@
+body{background: #ebebeb;}
+.row08_top01{height: 50px;background:#008be6;color: #fff;}
+.row08_img_left{margin-top: 12px;margin-left:10px;float: left;}
+.row08_font01{font-size: 18px;text-align:center;margin-top:13px;margin-right:35px;}
+.row08_top02{height: 450px;background:#fff;}
+input:focus{outline: none;}
+.row08_txt01,.row08_top02_01,.row08_top02_02,.row08_pwd{width:80%;height:65px;margin-left:10%;border: none;border-bottom: 1px solid #ebebeb;color: #000;}
+.row08_txt01{margin-top: 30px;}
+.row08_txt02,.row08_txt03{width:60%;height:60px;border: none;color: #000;float: left;}
+.shu{width: 1px;height: 40px;background: #EBEBEB;float: left;margin-top: 12px;}
+.row08_font02,.row08_font03{text-align: center;padding-top: 20px;}
+.row08_top02_02{margin-top:10px;border-top: 1px solid #ebebeb;}
+.btn01{width:80%;height: 45px;margin-left:10%;margin-top: 30px;border:none;background: #008be2;}
+.row08_font04{color: #fff;font-size: 16px;font-family: "微软雅黑";}
